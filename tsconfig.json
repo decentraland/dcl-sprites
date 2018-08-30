@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "declaration": true,
+    "moduleResolution": "node",
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "newLine": "LF",
+    "stripInternal": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "jsxFactory": "DCL.createElement",
+    "removeComments": true,
+    "outDir": "build",
+    "pretty": true,
+    "lib": ["es2017", "dom"]
+  },
+  "exclude": ["node_modules"]
+}

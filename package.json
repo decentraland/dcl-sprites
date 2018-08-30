@@ -1,0 +1,19 @@
+{
+  "name": "dcl-sprites",
+  "version": "1.0.0",
+  "description": "Helper functions to create sprites using Decentraland's SDK",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "decentraland-compiler build.json"
+  },
+  "author": "Daniel Belohlavek",
+  "license": "MIT",
+  "peerDependencies": {
+    "decentraland-api": "^4.1.0"
+  },
+  "devDependencies": {
+    "decentraland-api": "^4.1.0",
+    "typescript": "^3.0.1"
+  }
+}
