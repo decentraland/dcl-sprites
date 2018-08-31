@@ -9,6 +9,10 @@
   },
   "author": "Daniel Belohlavek",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentraland/dcl-sprites.git"
+  },
   "peerDependencies": {
     "decentraland-api": "^4.1.0"
   },
