@@ -63,6 +63,8 @@ Once the custom class is defined, you can add a new entity of this class to your
   />
 ```
 
+> Note: The custom class name must start with an upper case to be recognized by the SDK as a class.
+
 ## Image atlas example
 
 
@@ -141,6 +143,7 @@ Once the custom class is defined, you can add a new entity of this class to your
   scale={{ x: 1, y: 1, z: 1 }}
 />
 ```
+> Note: The custom class name must start with an upper case to be recognized by the SDK as a class.
 
 
 ## Sprite sheet example
