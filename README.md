@@ -88,11 +88,11 @@ async render() {
 
     return (
       <scene>
+        <basic-material
+          id="material"
+          texture="materials/game_UI.png"
+        />
         <entity position={{ x: 5, y: 1, z: 5 }}>
-          <basic-material
-            id="material"
-            texture="materials/game_UI.png"
-          />
           <UIPlane
             frame="play"
             position={{ x: 0, y: 1, z: 1 }}
@@ -161,11 +161,11 @@ async render() {
     })
     return (
       <scene>
+        <basic-material
+          id="explosion"
+          texture="materials/explosion_atlas_512x512.png"
+        /> 
         <entity position={{ x: 5, y: 1, z: 5 }}>
-          <basic-material
-            id="explosion"
-            texture="materials/explosion_atlas_512x512.png"
-          /> 
           <Sprite
             frame="frame0"
             position={{ x: 0, y: 1, z:1 }}
@@ -203,11 +203,11 @@ async render() {
     })
     return (
       <scene>
+        <basic-material
+          id="explosion"
+          texture="materials/explosion_atlas_512x512.png"
+        /> 
         <entity position={{ x: 5, y: 1, z: 5 }}>
-          <basic-material
-            id="explosion"
-            texture="materials/explosion_atlas_512x512.png"
-          /> 
           <Sprite
             frame={"frame" + this.state.frame}
             position={{ x: 0, y: 1, z:1 }}
