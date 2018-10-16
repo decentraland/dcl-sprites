@@ -39,7 +39,7 @@ Call the `createAtlas()` function to define a custom entity class that uses text
  ```tsx
 const UIEntity = createAtlas({
   material: "#material",
-  textureSize: { width: 512, height: 512 },
+  textureSize: { width: 1000, height: 550 },
   frames: {
     myFrame: { x: 0, y: 0, width: 128, height: 128 }
   }
@@ -77,7 +77,7 @@ The following example uses a texture atlas to display several individual icons i
 async render() {
     const UIPlane = createAtlas({
       material: "#material",
-      textureSize: { width: 512, height: 512 },
+      textureSize: { width: 1000, height: 550 },
        frames: {
         play: { x: 26, y: 128, width: 128, height: 128},
         start: { x: 183, y: 128, width: 128, height: 128 },
