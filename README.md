@@ -43,7 +43,7 @@ const UIEntity = createAtlas({
   frames: {
     myFrame: { x: 0, y: 0, width: 128, height: 128 }
   }
-}
+})
 ```
 
 The `createAtlas()` function takes the following arguments:
